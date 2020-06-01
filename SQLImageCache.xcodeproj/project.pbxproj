@@ -14,6 +14,9 @@
 		5806285B2480D8AB0091A24A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5806285A2480D8AB0091A24A /* Assets.xcassets */; };
 		5806285E2480D8AB0091A24A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5806285C2480D8AB0091A24A /* LaunchScreen.storyboard */; };
 		580628692480D8AB0091A24A /* SQLImageCacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580628682480D8AB0091A24A /* SQLImageCacheTests.swift */; };
+		580628742480D8C60091A24A /* SQLiteDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580628732480D8C60091A24A /* SQLiteDatabase.swift */; };
+		580628762480DA080091A24A /* KeyValueStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580628752480DA080091A24A /* KeyValueStorage.swift */; };
+		580628782480E1A60091A24A /* ImageDiskCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580628772480E1A60091A24A /* ImageDiskCache.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		580628642480D8AB0091A24A /* SQLImageCacheTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQLImageCacheTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		580628682480D8AB0091A24A /* SQLImageCacheTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLImageCacheTests.swift; sourceTree = "<group>"; };
 		5806286A2480D8AB0091A24A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		580628732480D8C60091A24A /* SQLiteDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteDatabase.swift; sourceTree = "<group>"; };
+		580628752480DA080091A24A /* KeyValueStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyValueStorage.swift; sourceTree = "<group>"; };
+		580628772480E1A60091A24A /* ImageDiskCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDiskCache.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,9 @@
 				580628512480D8A90091A24A /* AppDelegate.swift */,
 				580628532480D8A90091A24A /* SceneDelegate.swift */,
 				580628552480D8A90091A24A /* ViewController.swift */,
+				580628732480D8C60091A24A /* SQLiteDatabase.swift */,
+				580628752480DA080091A24A /* KeyValueStorage.swift */,
+				580628772480E1A60091A24A /* ImageDiskCache.swift */,
 				580628572480D8A90091A24A /* Main.storyboard */,
 				5806285A2480D8AB0091A24A /* Assets.xcassets */,
 				5806285C2480D8AB0091A24A /* LaunchScreen.storyboard */,
@@ -201,7 +210,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				580628562480D8A90091A24A /* ViewController.swift in Sources */,
+				580628782480E1A60091A24A /* ImageDiskCache.swift in Sources */,
+				580628762480DA080091A24A /* KeyValueStorage.swift in Sources */,
 				580628522480D8A90091A24A /* AppDelegate.swift in Sources */,
+				580628742480D8C60091A24A /* SQLiteDatabase.swift in Sources */,
 				580628542480D8A90091A24A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
